@@ -43,9 +43,9 @@ session_start();
 <body>
 
     <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark ">
-        <!-- <a class="imlogo navbar-brand mbr-fonts-style " href="index.php"><i class="fas fa-tshirt"></i>&nbsp;HALLIN</a> -->
+        <!-- <a class="imlogo navbar-brand mbr-fonts-style " href="index.html"><i class="fas fa-tshirt"></i>&nbsp;HALLIN</a> -->
 
-        <a href="/index.php">
+        <a href="/index.html">
           <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg27425" viewbox="430 300 200 170" height="56px" width="210px" version="1.1">
               <lineargradient spreadmethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-5b6cab2c-781c-4026-84e1-aff30441c61c">
                 <stop id="stop27406" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
@@ -100,10 +100,11 @@ session_start();
       </div>
 
     <div class="float-right">
-      <a class="nav-link mbr-fonts-style text-light align-content-center d-flex "  href="/<?php if (isset($user_data)) {echo "account.php";} else { echo "login.php"; } ?>">
-        <span class="material-symbols-outlined " >
-          account_circle
-          </span> &nbsp;Account</a>
+      <a class="nav-link mbr-fonts-style text-light " href="Support.html">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-question-circle" viewbox="0 0 16 16">
+<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+<path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+</svg>&nbsp;Help</a>
 </div>
 
     <!-- <form class="form-inline  my-lg-0 ">
@@ -310,7 +311,7 @@ session_start();
     <!-- <li><a href="/pages/unique-watches">Collections</a></li> -->
     <li><a href="/Men.html">Men</a></li>
     <li><a href="/Women.html">Women</a></li>
-    <li><a href="/reviews.html">Reviews</a></li>
+    <li><a href="https://www.trustpilot.com/review/beluxe.today">Reviews</a></li>
     <!-- <li><a href="/collections/new-watches">New</a></li> -->
     <!-- <li><a href="/collections/watches-on-sale">Flash Sale</a></li> -->
     </ul>
@@ -329,10 +330,13 @@ session_start();
     
     </div>
     <div class="ml-5 pl-5 d-flex justify-content-start align-items-center">
-        <a href="https://www.facebook.com/beluxe.international">
+        <a href="https://www.facebook.com/beluxe.international/">
           <h4 class="p-4"><i class=" clas fa fa-facebook-official" aria-hidden="true"></i></h4>
         </a>
-        <a href="https://www.instagram.com/beluxe.international">
+        <a href="https://www.instagram.com/beluxe.international/">
+          <h4 class="p-4"><i class=" clas fa fa-instagram" aria-hidden="true"></i></h4>
+        </a>
+         <a href="https://www.instagram.com/beluxe.maroc/">
           <h4 class="p-4"><i class=" clas fa fa-instagram" aria-hidden="true"></i></h4>
         </a>
         <!-- <a href="">
@@ -349,8 +353,8 @@ session_start();
 <script>
 
 // search
-  const menP ="https://raw.githubusercontent.com/abdelaziz-belhachmi/Jsontesting/main/products/men/data";
-  const womenP ="https://raw.githubusercontent.com/abdelaziz-belhachmi/Jsontesting/main/products/women/data";
+  const menP ="https://raw.githubusercontent.com/abdel18aziz/Jsontesting/main/products/men/data";
+  const womenP ="https://raw.githubusercontent.com/abdel18aziz/Jsontesting/main/products/women/data";
   
 const searchBar = document.getElementById("homeSearch");
 const searchB = document.getElementById("searchbtn");
