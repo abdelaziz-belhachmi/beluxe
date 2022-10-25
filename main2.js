@@ -79,7 +79,7 @@ async function clickme(id){
       a++;  
     }
     localStorage.setItem('click2see',JSON.stringify(cop[a]));
-location.href="/p/product.html"
+location.href="p/product.html"
   } catch (error) {
     console.log(error);
   }
