@@ -53,7 +53,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BELUXE</title>
      <!-- add icon link -->
-     <link rel = "icon" href="https://raw.githubusercontent.com/abdel18aziz/Jsontesting/main/logo/beluxe.png" type = "image/x-icon">
+     <link rel = "icon" href="https://raw.githubusercontent.com/abdelaziz-belhachmi/Jsontesting/main/logo/beluxe.png" type = "image/x-icon">
 
     <!--css bootstrap 4.5-->    
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">

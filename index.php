@@ -349,8 +349,8 @@ session_start();
 <script>
 
 // search
-  const menP ="https://raw.githubusercontent.com/abdel18aziz/Jsontesting/main/products/men/data";
-  const womenP ="https://raw.githubusercontent.com/abdel18aziz/Jsontesting/main/products/women/data";
+  const menP ="https://raw.githubusercontent.com/abdelaziz-belhachmi/Jsontesting/main/products/men/data";
+  const womenP ="https://raw.githubusercontent.com/abdelaziz-belhachmi/Jsontesting/main/products/women/data";
   
 const searchBar = document.getElementById("homeSearch");
 const searchB = document.getElementById("searchbtn");
